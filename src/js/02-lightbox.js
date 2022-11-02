@@ -12,18 +12,3 @@ function createGalleryItems(items) {
 
 galleryPhoto.innerHTML = createGalleryItems(galleryItems);
 const lightbox = new SimpleLightbox(".gallery__item", { captionsData: "alt" , captionDelay: 250} );
-
-// const addEls = createGalleryItems(galleryItems);
-// galleryPhoto.innerHTML = addEls;
-
-
-// galleryPhoto.addEventListener('click', imageLoop);
-
-// function imageLoop(event) { 
-//     event.preventDefault();
-//     if (event.target === galleryPhoto) {
-//         return;
-//     }
-    
-    
-// }
